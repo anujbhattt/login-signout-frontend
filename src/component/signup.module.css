@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.body {
+  justify-content: center;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  background-image: url("img3.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  filter: none;
+  width: 100%;
+}
+
+.container {
+  height: 380px;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(18, 80%, 86%);
+  flex-direction: column;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.email input {
+  height: 43px;
+  margin: 10px;
+  width: 500px;
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  outline: 0cap;
+  padding: 0px 5px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.password input {
+  height: 43px;
+  border-radius: 3px;
+  width: 500px;
+  margin: 10px;
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  padding: 0px 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.buttons button {
+  padding: 5px 30px;
+  font-size: 22px;
+  font-weight: 400;
+  border: none;
+  background-color: rgb(89, 108, 183);
+  border-radius: 3px;
+  width: 70%;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  color: white;
+  background-color: black;
+}
+
+.password input:hover {
+  background-color: white
+}
+
+.email input:hover {
+  background-color: white
+}
+
+@media (min-width:100px) and (max-width:378.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+  .email input {
+    width: 90%;
+  }
+
+  .password input {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .email {
+    font-size: 25px;
+  }
+
+  .password {
+    font-size: 25px;
+  }
+}
+
+@media (min-width:378.99px) and (max-width:678.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .email input {
+    width: 100%;
+  }
+
+  .password input {
+    width: 100%;
+  }
+
+  .body {
+    width: 100%;
+  }
+}

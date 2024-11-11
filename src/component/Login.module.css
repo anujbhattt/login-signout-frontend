@@ -1,0 +1,202 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.body {
+  justify-content: center;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: bisque;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  background-image: url("img1.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  height: 600px;
+  filter: none;
+  width: 100%;
+}
+
+.container {
+  height: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(200, 68%, 29%);
+  flex-direction: column;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 45px;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.email input {
+  height: 40px;
+  margin: 10px;
+  width: 500px;
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  padding: 0px 5px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.password input {
+  height: 40px;
+  width: 500px;
+  border-radius: 3px;
+  margin: 10px;
+  background-color: hsl(0, 0%, 90%);
+  color: black;
+  outline: none;
+  padding: 0px 5px;
+  border: none;
+  font-size: 18px;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+.buttons button {
+  padding: 5px 30px;
+  font-size: 22px;
+  font-weight: 400;
+  border: none;
+  background-color: rgb(204, 245, 162);
+  border-radius: 3px;
+  width: 70%;
+  cursor: pointer;
+}
+
+.signup {
+  font-size: 22px;
+  text-decoration-style: none;
+  color: black;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  padding: 20px 0;
+  flex-direction: row;
+}
+
+.btn {
+  font-size: 18px;
+  border: none;
+  color: darkblue;
+  width: 15%;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: rgb(207, 121, 90);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.password input:hover {
+  background-color: white
+}
+
+.email input:hover {
+  background-color: white
+}
+
+.btn:active {
+  color: gray;
+}
+
+.buttons button:hover {
+  color: black;
+  background-color: lightsteelblue;
+}
+
+@media (min-width:100px) and (max-width:378.98px) {
+  .container {
+    width: 90%;
+  }
+
+  .email input {
+    width: 90%;
+  }
+
+  .password input {
+    width: 90%;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+  .signup {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .email {
+    font-size: 25px;
+  }
+
+  .password {
+    font-size: 25px;
+  }
+}
+
+@media (min-width:378.99px) and (max-width:678.98px) {
+  .container {
+    width: 90%;
+  }
+
+  .email input {
+    width: 90%;
+  }
+
+  .password input {
+    width: 90%;
+  }
+
+  .body {
+    width: 100%;
+  }
+}
