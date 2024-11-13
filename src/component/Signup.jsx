@@ -15,7 +15,7 @@ function Signup() {
     setLoading(true)
     axios.post("https://login-signout-backend.vercel.app/signup", { email, password })
       .then(() => {
-        navigate("/login")
+        navigate("/")
         setLoading(false)
       })
       .catch(err => console.log(err))

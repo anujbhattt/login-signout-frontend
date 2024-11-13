@@ -118,43 +118,13 @@
 
 @media (min-width:100px) and (max-width:378.98px) {
   .container {
-    width: 80%;
-  }
-
-  .email input {
     width: 90%;
-  }
-
-  .password input {
-    width: 90%;
-  }
-
-  .title {
-    font-size: 35px;
-  }
-
-  .email {
-    font-size: 25px;
-  }
-
-  .password {
-    font-size: 25px;
+    height: 500px;
   }
 
   .body {
     height: 700px;
   }
-}
-
-@media (min-width:378.99px) and (max-width:678.98px) {
-  .container {
-    width: 80%;
-
-  }
-
-  .body {
-    min-height: 950px;
-  }
 
   .email input {
     width: 100%;
@@ -162,5 +132,68 @@
 
   .password input {
     width: 100%;
+  }
+
+  .signup {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .email {
+    font-size: 40px;
+  }
+
+  .password {
+    font-size: 40px;
+  }
+}
+
+@media (min-width:378.99px) and (max-width:678.98px) {
+  .container {
+    width: 90%;
+    height: 600px;
+  }
+
+  .email input {
+    width: 90%;
+    height: 50px;
+  }
+
+
+  .signup {
+    font-size: 22px;
+  }
+
+  .btn {
+    font-size: 19px;
+    padding: 0 20px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .email {
+    font-size: 40px;
+  }
+
+  .password {
+    font-size: 40px;
+  }
+
+  .password input {
+    width: 90%;
+    height: 50px;
+  }
+
+  .body {
+    min-height: 950px;
   }
 }
