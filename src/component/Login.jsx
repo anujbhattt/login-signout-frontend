@@ -16,7 +16,6 @@ function Login() {
       .then((result) => {
         if (result.data === "success") {
           navigate('/home')
-
         }
         else if (result.data === "No record exist") {
           alert("Cannot find User.")
@@ -49,7 +48,7 @@ function Login() {
           <button type="submit" disabled={loading} >{loading ? "Loging..." : "Log In"}</button>
           <div className={styles.signup}>
             Dont have an Account?
-            <Link to={"/signup"} className={styles.btn}>SignUP</Link>
+            <Link to={"/sign"} className={styles.btn}>SignUP</Link>
           </div>
         </div>
       </form>
