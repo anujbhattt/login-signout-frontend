@@ -13,7 +13,7 @@ function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoading(true)
-    axios.post("https://login-signout-backend.vercel.app/sign", { email, password })
+    axios.post("https://login-signout-backend.vercel.app/signup", { email, password })
       .then(() => {
         navigate("/")
         setLoading(false)
