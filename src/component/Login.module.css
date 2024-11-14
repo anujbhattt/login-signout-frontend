@@ -145,14 +145,14 @@
   background-color: lightsteelblue;
 }
 
-@media (min-width:100px) and (max-width:378.98px) {
+@media (min-width:100px) and (max-width:374.98px) {
   .container {
     width: 90%;
-    height: 500px;
+    height: 370px;
   }
 
   .body {
-    height: 700px;
+    min-height: 500px auto;
   }
 
   .email input {
@@ -172,7 +172,7 @@
   }
 
   .title {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .email {
@@ -187,7 +187,11 @@
 @media (min-width:378.99px) and (max-width:678.98px) {
   .container {
     width: 90%;
-    height: 600px;
+    height: 450px;
+  }
+
+  .body {
+    height: 800px auto;
   }
 
   .email input {
@@ -220,9 +224,5 @@
   .password input {
     width: 90%;
     height: 50px;
-  }
-
-  .body {
-    min-height: 950px;
   }
 }
